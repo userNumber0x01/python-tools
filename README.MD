@@ -1,7 +1,7 @@
 # python tools
 
-[!TIP] netcat.py --help
-
+>[!TIP] netcat.py --help
+```
 usage: netcat.py [-h] [-c] [-e EXECUTE] [-l] [-p PORT] [-t TARGET] [-u UPLOAD]
 NT Net Tool
 
@@ -23,4 +23,4 @@ Example:
         netcat.py -t 192.168.1.100 -p 5555 -l -e="cat /etc/passwd" #run command
         echo 'ABC' | ./netcat.py -t 192.168.1.108 -p 2048 #send text to server (port=2048)
         netcat.py -t 192.168.1.100 -p 5555 # connect to server
-
+```
