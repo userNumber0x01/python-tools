@@ -1,6 +1,7 @@
 # python tools
 
->[!TIP] netcat.py --help
+>[!TIP]
+> netcat.py --help
 ```
 usage: netcat.py [-h] [-c] [-e EXECUTE] [-l] [-p PORT] [-t TARGET] [-u UPLOAD]
 NT Net Tool
